@@ -4,29 +4,44 @@ main {
     padding-right: 20%;
     padding-top: 5%;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     font-weight: bold;
     text-align: center;
+    line-height: 250%;
 }
 
 h2 {
     font-weight: bold;
+    font-size: 24px;
+    line-height: 200%;
 }
 
 h3 {
     font-style: italic;
     text-align: center;
+    font-size: 30px;
+    line-height:300%;
 }
 
 .dialogue {
     text-indent: 5%;
-}
-
-main{
-
+    font-style: italic;
 }
 
 p.first::first-letter {
     font-size: 60px;
     float: left;
+    line-height: 50%
+}
+
+.moral {
+    padding-left: 10%;
+    line-height: 40%;
+    font-style: italic;
 }
