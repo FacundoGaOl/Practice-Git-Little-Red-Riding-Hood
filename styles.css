@@ -1,5 +1,5 @@
 main {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Brygada 1918', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
@@ -44,4 +44,12 @@ p.first::first-letter {
     padding-left: 10%;
     line-height: 40%;
     font-style: italic;
+}
+
+
+.brygada 1918 <uniquifier> {
+    font-family: "Brygada 1918", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
